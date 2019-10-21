@@ -1,2 +1,15 @@
 body {
+    text-align: center;
 }
+
+.container {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 50px;
+    margin-left: 250px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    clear: both;
+}
+

@@ -48,5 +48,16 @@ function Character() {
     console.log(passArr)
 }
 
+function generate(passwordArr, passwordLength) {
+    var password = ""
+    passwordLength = parseInt(passwordLength)
+    for (let k = 0; k < passwordLength; k++) {
+        var whichArray = Math.floor(Math.random()*passwordArr.length);
+        password += passwordArr[whichArray][Math.floor(math.random()*passwordArr[whichArray].length)]
+    }
+    console.log(password)
+}
 
-document.getElementById("text").value="test"
+
+document.getElementById("text").value="Your secure password"
+
